@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chúc mừng 20/10 </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="particleCanvas"></canvas>
+
+  <div class="container">
+    <h1 class="title"> 20/10 Anh Có Bất ngờ Tặng Em iu </h1>
+
+   
+    <div id="heartText" aria-hidden="true">Bấm vào đây </div>
+
+    <!-- link ảnh xếp chồng -->
+    <div id="photoStack" class="photo-stack">
+      <img src="https://files.catbox.moe/netfsr.jpeg" alt="img1" />
+      <img src="https://files.catbox.moe/netfsr.jpeg" alt="img2" />
+      <img src="https://files.catbox.moe/netfsr.jpeg" alt="img3" />
+      <img src="https://files.catbox.moe/netfsr.jpeg" alt="img4" />
+      <img src="https://files.catbox.moe/netfsr.jpeg" alt="img5" />
+    </div>
+
+    <!-- trái tim (bấm để xòe ảnh) -->
+    <div id="heart" class="heart" role="button" aria-label="Bấm để mở ảnh">
+      <span class="heart-inner" aria-hidden="true"></span>
+    </div>
+
+    <div class="buttons">
+      <button id="accept" class="btn">Nhận bất ngờ </button>
+      <button id="refuse" class="btn refuse">Không thèm 😒</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
